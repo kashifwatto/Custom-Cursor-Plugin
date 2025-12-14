@@ -1,0 +1,16 @@
+html, body,
+a, a:hover,
+button, button:hover,
+input, textarea, select,
+label, span {
+    cursor: none !important;
+}
+
+#ccp-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 999999;
+    transform: translate(-50%, -50%);
+}
